@@ -1,0 +1,36 @@
+body{
+    background-image: radial-gradient(circle, white,blue);
+}
+
+.Card{
+    background-image: radial-gradient(circle, blue,white);
+    margin-left:20%;
+    margin-right:20%;
+    border-top-left-radius: 2em;
+    border-bottom-left-radius: 2em;
+    border-top-right-radius: 2em;
+    border-bottom-right-radius: 2em;
+    padding: 20px;
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:larger;
+    text-align: center;
+}
+div #loading {
+
+
+    display: flex;
+    
+    
+    justify-content: center;
+    
+    
+}
+
+@media screen and (max-width: 1160px) {
+    .Card{
+        margin-left:2%;
+        margin-right:2%;
+        padding: 5px;
+    }
+}
